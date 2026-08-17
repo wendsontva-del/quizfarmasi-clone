@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react";
 import { Check, ChevronRight, Volume2, VolumeX, RotateCcw, Trophy } from "lucide-react";
 import { questions } from "@/lib/questions";
 
-const MUSIC_SRC = "/manus-storage/quizfarmasi-background_bc6c9afd.wav";
+const MUSIC_SRC = "/manus-storage/quiz-music-original_fc987337.mp3";
 
 export default function Home() {
   const [questionIndex, setQuestionIndex] = useState(0);
