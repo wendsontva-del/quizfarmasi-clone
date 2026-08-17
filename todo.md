@@ -1,5 +1,14 @@
 # Correção solicitada
 
+## Reinício de áudio por pergunta
+
+- [x] Confirmar na referência quando o áudio reinicia ao trocar de pergunta.
+- [x] Reiniciar o áudio original ao renderizar cada nova pergunta.
+- [x] Preservar o estado Ligar/Desligar e o fallback de autoplay.
+- [x] Testar avanço, reinício e atualização do GitHub.
+
+## Histórico
+
 ## Áudio original solicitado
 
 - [x] Localizar o arquivo de áudio efetivamente carregado pela URL de referência.
