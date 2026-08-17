@@ -25,6 +25,13 @@ export default function Home() {
     };
   }, []);
 
+  useEffect(() => {
+    const music = musicRef.current;
+    if (!music || !musicOn) return;
+    music.currentTime = 0;
+    void music.play().catch(() => setMusicOn(false));
+  }, [questionIndex]);
+
   const toggleMusic = async () => {
     const music = musicRef.current;
     if (!music) return;
