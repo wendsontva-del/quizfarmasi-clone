@@ -1,5 +1,14 @@
 # Correção solicitada
 
+## Áudio original solicitado
+
+- [x] Localizar o arquivo de áudio efetivamente carregado pela URL de referência.
+- [x] Confirmar licença/autorização para redistribuir o áudio original.
+- [x] Substituir a faixa recriada pelo arquivo original autorizado.
+- [x] Validar o botão Ligar/Desligar música e atualizar checkpoint/GitHub.
+
+## Correções anteriores
+
 - [x] Auditar o controle de música e os eventos sonoros no site original.
 - [x] Comparar comportamento de resposta, avanço, reinício e resultado entre referência e clone.
 - [x] Substituir a implementação de áudio incompatível por uma reprodução que funcione após o gesto explícito do usuário.
